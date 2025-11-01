@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.active hr{
+  @apply block
+}
+
+.active li{
+  @apply text-blue-500
+}
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+@media (max-width:740px){
+  .active p{
+    @apply text-white bg-violet-500
+  }
+}
+
+.page-wrapper{
+ background-color: #e2e8f0;
+}
+
